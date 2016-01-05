@@ -1,0 +1,28 @@
+{
+  "name": "huejay-cli",
+  "version": "0.0.1",
+  "description": "Philips Hue command-line interface",
+  "keywords": [
+    "hue",
+    "philips",
+    "huejay",
+    "cli",
+    "iot"
+  ],
+  "maintainers": [
+    "Michael Squires <sqmk@php.net>"
+  ],
+  "license": "MIT",
+  "repository": "sqmk/huejay-cli",
+  "main": "lib/Cli.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "commander": "2.9.0",
+    "huejay":    "1.0.0"
+  }
+}
