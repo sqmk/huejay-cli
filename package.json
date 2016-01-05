@@ -16,6 +16,7 @@
   "repository": "sqmk/huejay-cli",
   "main": "lib/Cli.js",
   "files": [
+    "bin",
     "lib"
   ],
   "scripts": {
