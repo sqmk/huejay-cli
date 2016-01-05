@@ -21,6 +21,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "bin": {
+    "huejay": "bin/huejay"
+  },
   "dependencies": {
     "commander": "2.9.0",
     "huejay":    "1.0.0"
